@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Suite landing page</title>
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <img src="/assets/logo.svg" class="header-logo" alt="curved line" />
+        <button class="btn header-btn">Request Beta Access</button>
+      </header>
+      <div class="container hero hero-grid">
+        <div class="hero-left">
+          <div class="hero-curve">
+            <img src="/assets/pattern-curved-line-1.svg" />
+          </div>
+          <h1 class="hero-h1">
+            A <span>super solution </span>for your <span>business.</span>
+          </h1>
+          <p class="hero-p">
+            Our marketing and sales automations help you scale your outreach to
+            get more leads for your company.
+          </p>
+          <button class="btn cta-btn">Request Beta Access</button>
+        </div>
+
+        <picture class="hero-img">
+          <source
+            srcset="/assets/image-hero-portrait.png"
+            media="(min-width: 601px)"
+            alt="iphone"
+          />
+          <img src="/assets/image-hero-landscape.png" alt="iphone" />
+        </picture>
+
+        <div class="hero-right">
+          <div class="stats">
+            <h2>2K+</h2>
+            <p>Companies</p>
+          </div>
+          <div class="stats">
+            <h2>8</h2>
+            <p>Languages</p>
+          </div>
+          <div class="stats">
+            <h2>1.2M</h2>
+            <p>Leads</p>
+          </div>
+        </div>
+      </div>
+      <section class="testimonial">
+        <div class="testimonial-left">
+          <img
+            class="testimonial-img"
+            src="/assets/image-jeremy-large@2x.png"
+            alt="jeremy using app"
+          />
+        </div>
+        <div class="testimonial-text">
+          <h2>It just <span>works.</span></h2>
+          <p class="quote">
+            “I really like how it is an all-in-one solution that handle many of
+            the tasks that you would normally need separate tools to do the same
+            job. This thing is a miracle worker.”
+          </p>
+          <p class="name">Jeremy Robinson</p>
+          <p class="title">CMO, Fylo</p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <img class="footer-logo" src="/assets/logo.svg" alt="suite logo" />
+      <p class="copyright">Copyright - Suite</p>
+      <div class="social-links">
+        <img
+          class="social-icon"
+          src="/assets/icon-facebook.svg"
+          alt="facebook logo"
+        />
+        <img
+          class="social-icon"
+          src="/assets/icon-twitter.svg"
+          alt="twitter logo"
+        />
+        <img
+          class="social-icon"
+          src="/assets/icon-instagram.svg"
+          alt="instagram logo"
+        />
+      </div>
+    </footer>
+  </body>
+</html>
